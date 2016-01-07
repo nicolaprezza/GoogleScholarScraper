@@ -1,0 +1,2 @@
+rm -Rf ../data/DB
+../hadoop-0.23.4/bin/hadoop jar SDBM.jar db.ScholarDBManager -new_db ../data/authors ../data/DB ../proxies/proxies 2>&1 | sed -e '/WARN\|httpclient\|LocalJobRunner\|AuthChallengeProcessor/d'

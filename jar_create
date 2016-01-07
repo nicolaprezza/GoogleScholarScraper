@@ -1,0 +1,2 @@
+rm SDBM.jar
+jar -cvf ./SDBM.jar -C ./bin/ .

@@ -1,0 +1,2 @@
+rm articlesDBcreator.jar
+jar -cvf ./articlesDBcreator.jar -C ./bin/ .

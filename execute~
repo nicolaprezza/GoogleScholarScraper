@@ -1,0 +1,2 @@
+rm -Rf output
+hadoop jar sharedfriends.jar SharedFriends input500 output500

@@ -1,0 +1,3 @@
+rm -Rf ../data/frequencies
+rm -Rf ../data/chart
+hadoop jar SDBM.jar db.ScholarDBManager -topic_trending AI,intelligence,artificial,NN,neuron,network,perceptron ../data/DB ../data/chart

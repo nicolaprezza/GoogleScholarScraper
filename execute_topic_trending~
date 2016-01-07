@@ -1,0 +1,3 @@
+rm -Rf ../data/frequencies
+rm -Rf ../data/chart
+hadoop jar SDBM.jar db.ScholarDBManager -topic_trending algorithm,algorithms,turing,machine,church,programming,instruction ../data/DB ../data/chart

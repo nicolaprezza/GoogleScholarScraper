@@ -1,0 +1,2 @@
+rm -Rf ../data/authors{1..10}
+hadoop jar SDBM.jar db.ScholarDBManager -new_auth ../data/DB ../data/authors
